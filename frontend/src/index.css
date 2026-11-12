@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0c1116;
+  --color-panel: #131a21;
+  --color-line: #243040;
+  --color-muted: #8496a8;
+  --color-text: #dbe4ec;
+  --color-good: #4cc38a;
+  --color-warn: #e5a83b;
+  --color-bad: #e5604d;
+  --font-sans: "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Cascadia Mono", Consolas, ui-monospace, monospace;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
